@@ -4,6 +4,6 @@
 
   },
   "scripts": {
-    "build-css":"tailwind build src/input.css -o public/output.css"
+    "build-css":"tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   }
 }
