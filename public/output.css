@@ -981,6 +981,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1027,6 +1032,14 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
 }
 
 .text-center {
@@ -1321,6 +1334,15 @@ video {
 
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:pl-1 {
+    padding-left: 0.25rem;
   }
 
   .md\:text-4xl {
