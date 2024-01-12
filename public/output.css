@@ -1104,13 +1104,13 @@ video {
   transition-duration: 150ms;
 }
 
-.hover\:after\:content-\[\'\@AchinthaP\'\]:hover::after {
-  --tw-content: '@AchinthaP';
+.hover\:after\:content-\[\'\@Achintha\'\]:hover::after {
+  --tw-content: '@Achintha';
   content: var(--tw-content);
 }
 
-.hover\:after\:content-\[\'\@AchinthaPr81991\'\]:hover::after {
-  --tw-content: '@AchinthaPr81991';
+.hover\:after\:content-\[\'\@AchinthaP\'\]:hover::after {
+  --tw-content: '@AchinthaP';
   content: var(--tw-content);
 }
 
