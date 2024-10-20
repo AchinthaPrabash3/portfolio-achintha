@@ -56,25 +56,25 @@ const projectdata = [
     name: "dribbble design to code",
     tech: ["react", "tailwindcss", "html"],
     img: "https://i.pinimg.com/564x/5f/26/bd/5f26bdf0aa1e680c7fd0d88e14e6dea7.jpg",
-    des: "this is a design form dribbble that i coded using react js and tailwindcss for animation i have used framer-motion",
+    des: "this is a design from dribbble that i coded using react.js and tailwindcss for animation i have used framer-motion",
   },
   {
     name: "dribbble design to code",
     tech: ["react", "tailwindcss", "html"],
     img: "https://i.pinimg.com/564x/c9/45/12/c94512d5ec3b81aaa47a57470a555887.jpg",
-    des: "this is a design form dribbble that i coded using react js and tailwindcss for animation i have used framer-motion",
+    des: "this is a design from dribbble that i coded using react js and tailwindcss for animation i have used framer-motion",
   },
   {
-    name: "univercity project (resturent web application)",
+    name: "university project (resturent web application)",
     tech: ["react", "tailwindcss", "html", "java", "springBoot"],
     img: "https://i.pinimg.com/736x/1e/96/ea/1e96ea9e268b85ff2916c91062556978.jpg",
-    des: "full-stack web application done for a univercity project using springboot for the back-end and react for the front-end  ",
+    des: "full-stack web application done for a university project using springboot for the back-end and react for the front-end  ",
   },
   {
     name: "i code this projects",
     tech: ["tailwindcss", "html"],
     img: "https://i.pinimg.com/564x/f2/00/29/f20029d07006f9be10d4ee8539027e62.jpg",
-    des: "there are many projects like this on i code this you can find me @AchinthaP or click the link at the bottom",
+    des: "there are many projects like this on icodethis.com you can find me @AchinthaP or click the link at contact section",
   },
 ];
 
@@ -88,15 +88,15 @@ projectsContainer.innerHTML = projectdata
       .join("");
 
     return `
-    <div class="relative hover:scale-[0.98] transition-all duration-300 cursor-pointer">
+    <article class="relative hover:scale-[0.98] transition-all duration-300 cursor-pointer">
   <div class=" absolute size-full bg-gradient-to-b from-transparent to-slate-800 z-10 flex flex-col items-start justify-end p-2 ">
     <h1 class="font-bold text-xl mb-1 first-letter:uppercase pl-1" >${name}</h1>
-    <p class="font-thin text-xs w-[70%] pl-1" >${des}</p>
+    <p class="font-thin text-xs w-[70%] pl-1 first-letter:uppercase" >${des}</p>
     <ul class="flex gap-2 items-center mt-2 flex-wrap">
     ${liElsm}
     </ul>
   </div>
   <img src="${img}" class="object-top relative z-0" alt="${des}" />
-  </div>`;
+  </article>`;
   })
   .join("");
