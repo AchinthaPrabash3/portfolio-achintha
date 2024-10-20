@@ -12,7 +12,7 @@ const skills = [
   "java",
   "javascript",
   "tailwindcss",
-  "React JS",
+  "React.JS",
   "CSS3",
   "HTML5",
   "TypeScript",
