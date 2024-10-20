@@ -96,7 +96,7 @@ projectsContainer.innerHTML = projectdata
     ${liElsm}
     </ul>
   </div>
-  <img src="${img}" class="object-top relative z-0" />
+  <img src="${img}" class="object-top relative z-0" alt="${des}" />
   </div>`;
   })
   .join("");
