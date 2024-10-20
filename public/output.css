@@ -758,20 +758,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/images\/bg\.gif\'\)\] {
+.bg-gif {
   background-image: url('./images/bg.gif');
-}
-
-.bg-\[url\(\'https\:\/\/i\.pinimg\.com\/originals\/6d\/c8\/f1\/6dc8f11334c7e1564bde781d84f9dfb7\.gif\'\)\] {
-  background-image: url('https://i.pinimg.com/originals/6d/c8/f1/6dc8f11334c7e1564bde781d84f9dfb7.gif');
 }
 
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-gif {
-  background-image: url('./images/bg.gif');
 }
 
 .from-transparent {
@@ -796,6 +788,11 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -826,11 +823,6 @@ video {
 .py-52 {
   padding-top: 13rem;
   padding-bottom: 13rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pl-1 {
